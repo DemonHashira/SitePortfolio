@@ -18,7 +18,7 @@
   --color-grey-5: #2a2e35;
   --color-grey-6: #12181b;
   --br-sm-2: 14px;
-  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
+  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
 .light-mode {
@@ -229,7 +229,7 @@ form div .btn-icon {
 }
 .header-content .left-header .image img {
   border-radius: var(--br-sm-2);
-  width: 300%;
+  width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -594,8 +594,7 @@ form div .btn-icon {
 .contact-content-con .right-contact .input-control {
   margin: 1.5rem;
 }
-.contact-content-con .right-contact .input-control input,
-.contact-content-con .right-contact .input-control textarea {
+.contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
   border-radius: 30px;
   font-weight: inherit;
   font-size: inherit;

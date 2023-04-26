@@ -115,16 +115,7 @@ form div .btn-icon {
 
 .active {
   display: block;
-  -webkit-animation: scaleAnim 1s ease-in-out;
-          animation: scaleAnim 1s ease-in-out;
-}
-@-webkit-keyframes scaleAnim {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
+  animation: scaleAnim 1s ease-in-out;
 }
 @keyframes scaleAnim {
   0% {
@@ -375,7 +366,7 @@ form div .btn-icon {
   width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .SQL {
-  width: 20%;
+  width: 65%;
 }
 
 .stat-title {

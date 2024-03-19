@@ -208,7 +208,7 @@ form div .btn-icon {
   top: 0;
   z-index: -1;
   -webkit-clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
-  clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+          clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
@@ -223,7 +223,7 @@ form div .btn-icon {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
 }
@@ -357,7 +357,7 @@ form div .btn-icon {
   width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 25%;
+  width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .java {
   width: 75%;
@@ -366,6 +366,12 @@ form div .btn-icon {
   width: 50%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .SQL {
+  width: 65%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .Flutter {
+  width: 65%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .Dart {
   width: 65%;
 }
 
@@ -398,6 +404,8 @@ form div .btn-icon {
   position: relative;
   padding-left: 3rem;
   border-left: 1px solid var(--color-grey-5);
+  box-sizing: border-box;
+  width: 100%;
 }
 .timeline .timeline-item .tl-icon {
   position: absolute;
@@ -457,7 +465,7 @@ form div .btn-icon {
   width: 100%;
   height: 700px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   border-radius: 15px;
 }
 .portfolios .portfolio-item .hover-items {
@@ -917,4 +925,4 @@ form div .btn-icon {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
-} /*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

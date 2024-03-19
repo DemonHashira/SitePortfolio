@@ -404,6 +404,8 @@ form div .btn-icon {
     position: relative;
     padding-left: 3rem;
     border-left: 1px solid var(--color-grey-5);
+    box-sizing: border-box;
+    width: 100%;
     .tl-icon {
       position: absolute;
       left: -27px;
